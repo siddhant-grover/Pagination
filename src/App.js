@@ -39,6 +39,7 @@ export default function App() {
         paginate={paginate}
         postsPerPage={postsPerPage}
         totalposts={posts.length}
+        currentPage={currentPage}
       />
       {/*currentPage change,how many buttons  */}
     </div>
